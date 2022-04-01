@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-size: 22px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: underline;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    color: seashell;
+    padding: 8px;
+    margin-top: 25px;
+}
+
+.mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    width: auto;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mission-text {
+    background-color: black;
+    height: fit-content;
+    width: 1200px;
+}
+
+.tea-month {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: 1000px;
+}
+
+.flavor {
+    height: 200px;
+    width: 300px;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+.locations {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.locations-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.downtown,
+.east-bayside,
+.oakdale {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin: 40px;
+    opacity: 1;
+}
+
+.contact {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    margin: 20px;
+}
+
+.copyright {
+    text-align: left;
+    padding: 10px;
+    font-size: 12px;
+}
